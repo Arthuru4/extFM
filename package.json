@@ -1,0 +1,25 @@
+{
+  "name": "extfm",
+  "version": "1.0.0",
+  "description": "//npm install node-static && npm install ws && npm install websocket",
+  "main": "contentScript.js",
+  "dependencies": {
+    "node-static": "^0.7.11",
+    "websocket": "^1.0.28",
+    "ws": "^7.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arthuru4/extFM.git"
+  },
+  "author": "Arthuru4",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arthuru4/extFM/issues"
+  },
+  "homepage": "https://github.com/Arthuru4/extFM#readme"
+}

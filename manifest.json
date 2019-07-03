@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+
+    "name": "Player Plugin",
+    "description": "yeah",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+
+   "background": {
+    "scripts": ["popup.js"]
+  },
+
+   "content_scripts": [
+   {
+     "all_frames": true,
+    "matches": [ "http://*/*", "http://radio.i.ua/play/*/*", "file://*/*" ],
+     "js": ["contentScript.js"]
+   }
+ ],
+
+ "permissions": [ "http://*/*", "https://*/*", "http://radio.i.ua/play/*/*", "storage" ]
+}
